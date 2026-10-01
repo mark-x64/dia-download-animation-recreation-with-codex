@@ -1,0 +1,31 @@
+{
+  "name": "dia-download-animation-recreation",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Interactive recreation of Dia's download animation with refractive light trails.",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1"
+  },
+  "engines": {
+    "node": ">=20.19.0"
+  },
+  "dependencies": {
+    "@emotion/react": "11.14.0",
+    "@emotion/styled": "11.14.1",
+    "@mui/icons-material": "9.4.0",
+    "@mui/material": "9.4.0",
+    "html-to-image": "1.11.13",
+    "motion": "13.5.0",
+    "ogl": "1.0.11",
+    "react": "19.2.0",
+    "react-dom": "19.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "5.0.4",
+    "vite": "6.4.2"
+  }
+}
