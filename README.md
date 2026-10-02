@@ -2,6 +2,8 @@
 
 Interactive recreation of [Dia](https://www.diabrowser.com/)'s download animation. A card lifts, changes speed and scale, and collapses into a download button while the page dims and bends around a soft light trail.
 
+[Live demo](https://mark-x64.github.io/dia-download-animation-recreation-with-codex/)
+
 ![Download card with a refractive light trail](docs/preview.gif)
 
 [MP4 preview](docs/preview.mp4) · [Motion](src/useCardMotion.jsx) · [Refraction shader](src/fluidShader.js)
@@ -24,7 +26,7 @@ npm run build
 npm run preview
 ```
 
-The build uses relative asset paths and can be served from a repository subdirectory. The skeleton layout rearranges for wide, tablet, and phone viewports, leaving space around the button.
+The build uses relative asset paths and can be served from a repository subdirectory. The default branch is published automatically to GitHub Pages; see [deployment setup](docs/pages.md) for this and future recreation projects. The skeleton layout rearranges for wide, tablet, and phone viewports, leaving space around the button.
 
 ## How it works
 
